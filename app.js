@@ -1,8 +1,7 @@
 const express = require('express');
 const app = express();
 const db = require('./db');
-const port = 2000;
-const MongoLiveUrl = "mongodb+srv://login:test12345@netflixlogin.2gsnq.mongodb.net/netflixdatalogin?retryWrites=true&w=majority";
+const port = 5000;
 const cors = require('cors');
 app.use(cors());
 
