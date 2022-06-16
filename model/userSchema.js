@@ -8,5 +8,5 @@ const userSchema = new mongoose.Schema({
     role:String,
 })
 
-mongoose.model('netflixlogin',userSchema);
-module.exports = mongoose.model('netflixlogin')
+mongoose.model('user',userSchema);
+module.exports = mongoose.model('user')
